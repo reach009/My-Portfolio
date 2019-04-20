@@ -1,0 +1,161 @@
+body {
+  background-color: #fdfdf6;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  /*will center everything, which does not have width*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 500%;      /* 16 px = 100% = 1em */
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  /* width: 10%;        /* if h1 has width, we need to define margin!
+  margin: 0 auto;       /* top and bottom = 0 , left and right = auto -> center */
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;       /*double the line height of texts*/
+}
+
+.profile p{
+  width: 50%;
+  margin: auto;
+}
+
+hr {
+  /* background-color: white; */
+  border-style: none;
+  /* height: 6px; */
+  border-top-style: dotted;
+  border-color: #b4e9e2;
+  border-width: 10px;
+  width: 10%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Top Container */
+
+.top-container {
+  background-color: #b4e9e2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.Web {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+/* Middle Container */
+
+.middle-container {
+  margin-bottom: 50px;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.skills {
+  margin: 80px 0;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: center;
+  width: 60%;
+}
+
+#slideshowskills{
+  background-color: #00b7a8;
+  padding: 40px 0;
+}
+
+.skill1-image{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2-image{
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+}
+
+.skill-h3{
+  color: #acdbdf;
+}
+.skill-p {
+  color: #010101;
+}
+.contact-me {
+  margin: 100px 0;
+  padding-top: 20px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 30px;
+}
+
+.far,
+.fa-envelope{
+  margin-right: 10px;
+}
+
+/* Bottom Container */
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px 0 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem; /* rem is a good unit */
+  padding: 20px 0;
+}
+
+.logo-img {
+  padding: 20px;
+}
