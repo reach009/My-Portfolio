@@ -103,26 +103,24 @@ a {
 
 #slideshowskills{
   background-color: #00b7a8;
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
-.skill1-image{
+.skill-image{
   width: 20%;
-  float: left;
-  margin-right: 30px;
-}
-
-.skill2-image{
-  width: 20%;
-  float: left;
-  margin-left: 30px;
+  padding: 80px 30px 30px;
 }
 
 .skill-h3{
   color: #acdbdf;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  text-align: justify;
 }
 .skill-p {
   color: #010101;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 .contact-me {
   margin: 100px 0;
